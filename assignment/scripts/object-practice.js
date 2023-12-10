@@ -43,7 +43,7 @@ console.log("Cheeseburgers are listed last in the array", me.favThreeFoods[2]);
 console.log("Shoe count:", me.shoeCount);
 me.shoeCount += 1;
 console.log("New shoe count:", me.shoeCount);
-
+console.log(me)
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
   - Do this the same way you updated the variable above
@@ -52,3 +52,4 @@ console.log("New shoe count:", me.shoeCount);
 */
 me.favoriteColor = "white";
 console.log("New favorite color:", me.favoriteColor);
+console.log(me)
